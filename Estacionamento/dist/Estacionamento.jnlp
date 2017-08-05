@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Estacionamento.jnlp">
+  <information>
+    <title>Estacionamento</title>
+    <vendor>gmoch</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Estacionamento.jar" size="23761" download="eager" />
+    <jar href="lib\gson-2.6.2.jar" size="229650" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2386350" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Estacionamento" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="estacionamento.Estacionamento"  name="Estacionamento" />
+  <update check="always"/>
+</jnlp>
